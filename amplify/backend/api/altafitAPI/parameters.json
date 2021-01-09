@@ -1,0 +1,5 @@
+{
+    "AppSyncApiName": "altafitAPI",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false
+}
