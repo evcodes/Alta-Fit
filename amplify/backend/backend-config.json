@@ -1,20 +1,10 @@
 {
-  "api": {
-    "altafitAPI": {
-      "service": "AppSync",
+  "auth": {
+    "altafitd60d12b2": {
+      "service": "Cognito",
       "providerPlugin": "awscloudformation",
-      "output": {
-        "authConfig": {
-          "defaultAuthentication": {
-            "authenticationType": "API_KEY",
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 365,
-              "description": "api for alta fit application"
-            }
-          },
-          "additionalAuthenticationProviders": []
-        }
-      }
+      "dependsOn": [],
+      "customAuth": false
     }
   }
 }
